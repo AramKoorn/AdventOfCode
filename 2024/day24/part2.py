@@ -10,6 +10,8 @@ for wire in w.splitlines():
     wires[a] = int(b.strip())
 
 pattern = re.compile(r"(\w+)\s+(\w+)\s+(\w+)\s*->\s*(\w+)")
+
+# manual add swaps after inspecting graph
 swaps = {"z12": "djg",
         "djg": "z12", 
         "z19": "sbg", 
@@ -47,6 +49,9 @@ decimal = int(binary_str, 2)
 print(decimal)
 
 
+# check if circuit is working properly when fail
+# investigate graph to see which nodes we need to swap
+
 carry = 0
 for i in range(45):  
     number = f"{i:02d}" 
@@ -54,7 +59,6 @@ for i in range(45):
     if wires[f"z{number}"] != s % 2:
         print(number)
         break 
-    # The new carry is integer division by 2 (either 0 or 1)
     carry = s // 2
 
     
