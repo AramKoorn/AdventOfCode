@@ -1,0 +1,891 @@
+digraph LogicCircuit {
+    rankdir=TB;
+
+    // x21 XOR y21 -> hgv
+    x21 -> hgv [label="XOR"];
+    y21 -> hgv [label="XOR"];
+
+    // cpr OR tmw -> dhb
+    cpr -> dhb [label="OR"];
+    tmw -> dhb [label="OR"];
+
+    // cpq AND tkb -> jqs
+    cpq -> jqs [label="AND"];
+    tkb -> jqs [label="AND"];
+
+    // nbp AND tnq -> cpr
+    nbp -> cpr [label="AND"];
+    tnq -> cpr [label="AND"];
+
+    // scj AND btd -> tpk
+    scj -> tpk [label="AND"];
+    btd -> tpk [label="AND"];
+
+    // ffg OR tpj -> jrb
+    ffg -> jrb [label="OR"];
+    tpj -> jrb [label="OR"];
+
+    // pft AND qcp -> bcq
+    pft -> bcq [label="AND"];
+    qcp -> bcq [label="AND"];
+
+    // djg OR djr -> nbf
+    djg -> nbf [label="OR"];
+    djr -> nbf [label="OR"];
+
+    // qdg AND fqp -> trd
+    qdg -> trd [label="AND"];
+    fqp -> trd [label="AND"];
+
+    // jkm AND wrg -> vsk
+    jkm -> vsk [label="AND"];
+    wrg -> vsk [label="AND"];
+
+    // x39 AND y39 -> rjk
+    x39 -> rjk [label="AND"];
+    y39 -> rjk [label="AND"];
+
+    // frt AND pgs -> vfq
+    frt -> vfq [label="AND"];
+    pgs -> vfq [label="AND"];
+
+    // nqk OR mdk -> tbs
+    nqk -> tbs [label="OR"];
+    mdk -> tbs [label="OR"];
+
+    // y00 AND x00 -> ktt
+    y00 -> ktt [label="AND"];
+    x00 -> ktt [label="AND"];
+
+    // pks OR ptm -> dnd
+    pks -> dnd [label="OR"];
+    ptm -> dnd [label="OR"];
+
+    // ntj AND fbk -> dps
+    ntj -> dps [label="AND"];
+    fbk -> dps [label="AND"];
+
+    // y44 AND x44 -> dgh
+    y44 -> dgh [label="AND"];
+    x44 -> dgh [label="AND"];
+
+    // wgw OR qqp -> rnc
+    wgw -> rnc [label="OR"];
+    qqp -> rnc [label="OR"];
+
+    // y33 AND x33 -> jpc
+    y33 -> jpc [label="AND"];
+    x33 -> jpc [label="AND"];
+
+    // x13 AND y13 -> ntm
+    x13 -> ntm [label="AND"];
+    y13 -> ntm [label="AND"];
+
+    // y38 XOR x38 -> spf
+    y38 -> spf [label="XOR"];
+    x38 -> spf [label="XOR"];
+
+    // fnq OR pcv -> scj
+    fnq -> scj [label="OR"];
+    pcv -> scj [label="OR"];
+
+    // hjs OR vwj -> hhp
+    hjs -> hhp [label="OR"];
+    vwj -> hhp [label="OR"];
+
+    // y38 AND x38 -> pgc
+    y38 -> pgc [label="AND"];
+    x38 -> pgc [label="AND"];
+
+    // ftg AND mhv -> njj
+    ftg -> njj [label="AND"];
+    mhv -> njj [label="AND"];
+
+    // wvw OR rdt -> trw
+    wvw -> trw [label="OR"];
+    rdt -> trw [label="OR"];
+
+    // gkk AND nrd -> smk
+    gkk -> smk [label="AND"];
+    nrd -> smk [label="AND"];
+
+    // jjc AND mpf -> gvt
+    jjc -> gvt [label="AND"];
+    mpf -> gvt [label="AND"];
+
+    // x14 AND y14 -> tmw
+    x14 -> tmw [label="AND"];
+    y14 -> tmw [label="AND"];
+
+    // mwp OR vsb -> jqc
+    mwp -> jqc [label="OR"];
+    vsb -> jqc [label="OR"];
+
+    // mks OR jqs -> jrr
+    mks -> jrr [label="OR"];
+    jqs -> jrr [label="OR"];
+
+    // y40 XOR x40 -> cvb
+    y40 -> cvb [label="XOR"];
+    x40 -> cvb [label="XOR"];
+
+    // hjm AND jrr -> rpj
+    hjm -> rpj [label="AND"];
+    jrr -> rpj [label="AND"];
+
+    // x04 AND y04 -> csm
+    x04 -> csm [label="AND"];
+    y04 -> csm [label="AND"];
+
+    // kdm AND cgt -> sch
+    kdm -> sch [label="AND"];
+    cgt -> sch [label="AND"];
+
+    // jkm XOR wrg -> z33
+    jkm -> z33 [label="XOR"];
+    wrg -> z33 [label="XOR"];
+
+    // wjh XOR cpv -> z17
+    wjh -> z17 [label="XOR"];
+    cpv -> z17 [label="XOR"];
+
+    // bfn OR gwm -> smd
+    bfn -> smd [label="OR"];
+    gwm -> smd [label="OR"];
+
+    // x06 AND y06 -> kfb
+    x06 -> kfb [label="AND"];
+    y06 -> kfb [label="AND"];
+
+    // sqr XOR wpd -> z25
+    sqr -> z25 [label="XOR"];
+    wpd -> z25 [label="XOR"];
+
+    // dkq OR jsf -> frt
+    dkq -> frt [label="OR"];
+    jsf -> frt [label="OR"];
+
+    // x40 AND y40 -> wgw
+    x40 -> wgw [label="AND"];
+    y40 -> wgw [label="AND"];
+
+    // sqt OR wnv -> hww
+    sqt -> hww [label="OR"];
+    wnv -> hww [label="OR"];
+
+    // y12 AND x12 -> djr
+    y12 -> djr [label="AND"];
+    x12 -> djr [label="AND"];
+
+    // y18 XOR x18 -> qcp
+    y18 -> qcp [label="XOR"];
+    x18 -> qcp [label="XOR"];
+
+    // cpq XOR tkb -> z23
+    cpq -> z23 [label="XOR"];
+    tkb -> z23 [label="XOR"];
+
+    // bsr OR njd -> cpq
+    bsr -> cpq [label="OR"];
+    njd -> cpq [label="OR"];
+
+    // rqp XOR hcd -> z10
+    rqp -> z10 [label="XOR"];
+    hcd -> z10 [label="XOR"];
+
+    // ckt XOR jwg -> z20
+    ckt -> z20 [label="XOR"];
+    jwg -> z20 [label="XOR"];
+
+    // x19 AND y19 -> z19
+    x19 -> z19 [label="AND"];
+    y19 -> z19 [label="AND"];
+
+    // y37 AND x37 -> gqf
+    y37 -> gqf [label="AND"];
+    x37 -> gqf [label="AND"];
+
+    // hqv XOR bcf -> z34
+    hqv -> z34 [label="XOR"];
+    bcf -> z34 [label="XOR"];
+
+    // x41 XOR y41 -> mfp
+    x41 -> mfp [label="XOR"];
+    y41 -> mfp [label="XOR"];
+
+    // x14 XOR y14 -> nbp
+    x14 -> nbp [label="XOR"];
+    y14 -> nbp [label="XOR"];
+
+    // x42 XOR y42 -> qsg
+    x42 -> qsg [label="XOR"];
+    y42 -> qsg [label="XOR"];
+
+    // y25 XOR x25 -> wpd
+    y25 -> wpd [label="XOR"];
+    x25 -> wpd [label="XOR"];
+
+    // x27 AND y27 -> jqg
+    x27 -> jqg [label="AND"];
+    y27 -> jqg [label="AND"];
+
+    // y05 AND x05 -> fjd
+    y05 -> fjd [label="AND"];
+    x05 -> fjd [label="AND"];
+
+    // y28 XOR x28 -> gkk
+    y28 -> gkk [label="XOR"];
+    x28 -> gkk [label="XOR"];
+
+    // x17 AND y17 -> bpg
+    x17 -> bpg [label="AND"];
+    y17 -> bpg [label="AND"];
+
+    // y26 XOR x26 -> tmk
+    y26 -> tmk [label="XOR"];
+    x26 -> tmk [label="XOR"];
+
+    // bgs OR rpc -> nqq
+    bgs -> nqq [label="OR"];
+    rpc -> nqq [label="OR"];
+
+    // x13 XOR y13 -> fnc
+    x13 -> fnc [label="XOR"];
+    y13 -> fnc [label="XOR"];
+
+    // x31 AND y31 -> jsf
+    x31 -> jsf [label="AND"];
+    y31 -> jsf [label="AND"];
+
+    // y34 XOR x34 -> bcf
+    y34 -> bcf [label="XOR"];
+    x34 -> bcf [label="XOR"];
+
+    // ftg XOR mhv -> z06
+    ftg -> z06 [label="XOR"];
+    mhv -> z06 [label="XOR"];
+
+    // y10 AND x10 -> wnv
+    y10 -> wnv [label="AND"];
+    x10 -> wnv [label="AND"];
+
+    // x00 XOR y00 -> z00
+    x00 -> z00 [label="XOR"];
+    y00 -> z00 [label="XOR"];
+
+    // y15 AND x15 -> ptm
+    y15 -> ptm [label="AND"];
+    x15 -> ptm [label="AND"];
+
+    // fnc AND nbf -> mwj
+    fnc -> mwj [label="AND"];
+    nbf -> mwj [label="AND"];
+
+    // qmj XOR jqc -> z36
+    qmj -> z36 [label="XOR"];
+    jqc -> z36 [label="XOR"];
+
+    // bcf AND hqv -> cwc
+    bcf -> cwc [label="AND"];
+    hqv -> cwc [label="AND"];
+
+    // gkk XOR nrd -> z28
+    gkk -> z28 [label="XOR"];
+    nrd -> z28 [label="XOR"];
+
+    // kbm AND dgv -> vsb
+    kbm -> vsb [label="AND"];
+    dgv -> vsb [label="AND"];
+
+    // y34 AND x34 -> gbk
+    y34 -> gbk [label="AND"];
+    x34 -> gbk [label="AND"];
+
+    // y33 XOR x33 -> jkm
+    y33 -> jkm [label="XOR"];
+    x33 -> jkm [label="XOR"];
+
+    // y08 AND x08 -> wvw
+    y08 -> wvw [label="AND"];
+    x08 -> wvw [label="AND"];
+
+    // y39 XOR x39 -> fkg
+    y39 -> fkg [label="XOR"];
+    x39 -> fkg [label="XOR"];
+
+    // hhp XOR tjm -> dsd
+    hhp -> dsd [label="XOR"];
+    tjm -> dsd [label="XOR"];
+
+    // cwc OR gbk -> dgv
+    cwc -> dgv [label="OR"];
+    gbk -> dgv [label="OR"];
+
+    // dnd XOR nqd -> z16
+    dnd -> z16 [label="XOR"];
+    nqd -> z16 [label="XOR"];
+
+    // dts XOR gpv -> z07
+    dts -> z07 [label="XOR"];
+    gpv -> z07 [label="XOR"];
+
+    // njf XOR jsb -> djg
+    njf -> djg [label="XOR"];
+    jsb -> djg [label="XOR"];
+
+    // y36 AND x36 -> hjs
+    y36 -> hjs [label="AND"];
+    x36 -> hjs [label="AND"];
+
+    // y31 XOR x31 -> qvw
+    y31 -> qvw [label="XOR"];
+    x31 -> qvw [label="XOR"];
+
+    // stm OR mgr -> cpv
+    stm -> cpv [label="OR"];
+    mgr -> cpv [label="OR"];
+
+    // y02 AND x02 -> kwm
+    y02 -> kwm [label="AND"];
+    x02 -> kwm [label="AND"];
+
+    // x03 AND y03 -> jmr
+    x03 -> jmr [label="AND"];
+    y03 -> jmr [label="AND"];
+
+    // wcc OR jjp -> fqp
+    wcc -> fqp [label="OR"];
+    jjp -> fqp [label="OR"];
+
+    // btd XOR scj -> z43
+    btd -> z43 [label="XOR"];
+    scj -> z43 [label="XOR"];
+
+    // y24 AND x24 -> hjm
+    y24 -> hjm [label="AND"];
+    x24 -> hjm [label="AND"];
+
+    // y32 XOR x32 -> pgs
+    y32 -> pgs [label="XOR"];
+    x32 -> pgs [label="XOR"];
+
+    // y12 XOR x12 -> jsb
+    y12 -> jsb [label="XOR"];
+    x12 -> jsb [label="XOR"];
+
+    // y23 XOR x23 -> tkb
+    y23 -> tkb [label="XOR"];
+    x23 -> tkb [label="XOR"];
+
+    // kfb OR njj -> gpv
+    kfb -> gpv [label="OR"];
+    njj -> gpv [label="OR"];
+
+    // y22 XOR x22 -> kvp
+    y22 -> kvp [label="XOR"];
+    x22 -> kvp [label="XOR"];
+
+    // x16 XOR y16 -> nqd
+    x16 -> nqd [label="XOR"];
+    y16 -> nqd [label="XOR"];
+
+    // dhr AND cvb -> qqp
+    dhr -> qqp [label="AND"];
+    cvb -> qqp [label="AND"];
+
+    // y25 AND x25 -> ffg
+    y25 -> ffg [label="AND"];
+    x25 -> ffg [label="AND"];
+
+    // fbk XOR ntj -> z03
+    fbk -> z03 [label="XOR"];
+    ntj -> z03 [label="XOR"];
+
+    // wqw AND mtm -> rdt
+    wqw -> rdt [label="AND"];
+    mtm -> rdt [label="AND"];
+
+    // qvw AND smd -> dkq
+    qvw -> dkq [label="AND"];
+    smd -> dkq [label="AND"];
+
+    // kgm OR smk -> rmg
+    kgm -> rmg [label="OR"];
+    smk -> rmg [label="OR"];
+
+    // hww XOR fkc -> z11
+    hww -> z11 [label="XOR"];
+    fkc -> z11 [label="XOR"];
+
+    // dcc OR wkn -> njf
+    dcc -> njf [label="OR"];
+    wkn -> njf [label="OR"];
+
+    // x09 XOR y09 -> pmb
+    x09 -> pmb [label="XOR"];
+    y09 -> pmb [label="XOR"];
+
+    // fbf OR npg -> gtk
+    fbf -> gtk [label="OR"];
+    npg -> gtk [label="OR"];
+
+    // y15 XOR x15 -> ktv
+    y15 -> ktv [label="XOR"];
+    x15 -> ktv [label="XOR"];
+
+    // nbp XOR tnq -> z14
+    nbp -> z14 [label="XOR"];
+    tnq -> z14 [label="XOR"];
+
+    // tbs AND kvp -> njd
+    tbs -> njd [label="AND"];
+    kvp -> njd [label="AND"];
+
+    // qcp XOR pft -> z18
+    qcp -> z18 [label="XOR"];
+    pft -> z18 [label="XOR"];
+
+    // sqr AND wpd -> tpj
+    sqr -> tpj [label="AND"];
+    wpd -> tpj [label="AND"];
+
+    // jmr OR dps -> mpf
+    jmr -> mpf [label="OR"];
+    dps -> mpf [label="OR"];
+
+    // y20 AND x20 -> rpc
+    y20 -> rpc [label="AND"];
+    x20 -> rpc [label="AND"];
+
+    // tmc OR tpk -> fjb
+    tmc -> fjb [label="OR"];
+    tpk -> fjb [label="OR"];
+
+    // fsc OR bcq -> qjc
+    fsc -> qjc [label="OR"];
+    bcq -> qjc [label="OR"];
+
+    // qdg XOR fqp -> z27
+    qdg -> z27 [label="XOR"];
+    fqp -> z27 [label="XOR"];
+
+    // x28 AND y28 -> kgm
+    x28 -> kgm [label="AND"];
+    y28 -> kgm [label="AND"];
+
+    // y32 AND x32 -> psb
+    y32 -> psb [label="AND"];
+    x32 -> psb [label="AND"];
+
+    // y17 XOR x17 -> wjh
+    y17 -> wjh [label="XOR"];
+    x17 -> wjh [label="XOR"];
+
+    // mcq OR rpj -> sqr
+    mcq -> sqr [label="OR"];
+    rpj -> sqr [label="OR"];
+
+    // dsd XOR spf -> z38
+    dsd -> z38 [label="XOR"];
+    spf -> z38 [label="XOR"];
+
+    // mfp AND rnc -> fbf
+    mfp -> fbf [label="AND"];
+    rnc -> fbf [label="AND"];
+
+    // dgh OR vpj -> z45
+    dgh -> z45 [label="OR"];
+    vpj -> z45 [label="OR"];
+
+    // jsb AND njf -> z12
+    jsb -> z12 [label="AND"];
+    njf -> z12 [label="AND"];
+
+    // kgp OR kmb -> rkn
+    kgp -> rkn [label="OR"];
+    kmb -> rkn [label="OR"];
+
+    // dmn XOR rkw -> z30
+    dmn -> z30 [label="XOR"];
+    rkw -> z30 [label="XOR"];
+
+    // csm OR gvt -> cgt
+    csm -> cgt [label="OR"];
+    gvt -> cgt [label="OR"];
+
+    // y03 XOR x03 -> fbk
+    y03 -> fbk [label="XOR"];
+    x03 -> fbk [label="XOR"];
+
+    // y05 XOR x05 -> kdm
+    y05 -> kdm [label="XOR"];
+    x05 -> kdm [label="XOR"];
+
+    // hhp AND tjm -> spj
+    hhp -> spj [label="AND"];
+    tjm -> spj [label="AND"];
+
+    // qjc XOR kbs -> sbg
+    qjc -> sbg [label="XOR"];
+    kbs -> sbg [label="XOR"];
+
+    // rqp AND hcd -> sqt
+    rqp -> sqt [label="AND"];
+    hcd -> sqt [label="AND"];
+
+    // x01 XOR y01 -> rvb
+    x01 -> rvb [label="XOR"];
+    y01 -> rvb [label="XOR"];
+
+    // y30 XOR x30 -> rkw
+    y30 -> rkw [label="XOR"];
+    x30 -> rkw [label="XOR"];
+
+    // wqw XOR mtm -> z08
+    wqw -> z08 [label="XOR"];
+    mtm -> z08 [label="XOR"];
+
+    // y08 XOR x08 -> wqw
+    y08 -> wqw [label="XOR"];
+    x08 -> wqw [label="XOR"];
+
+    // mrf OR pgc -> kvh
+    mrf -> kvh [label="OR"];
+    pgc -> kvh [label="OR"];
+
+    // x24 XOR y24 -> mcq
+    x24 -> mcq [label="XOR"];
+    y24 -> mcq [label="XOR"];
+
+    // jpc OR vsk -> hqv
+    jpc -> hqv [label="OR"];
+    vsk -> hqv [label="OR"];
+
+    // hww AND fkc -> dcc
+    hww -> dcc [label="AND"];
+    fkc -> dcc [label="AND"];
+
+    // dhb AND ktv -> pks
+    dhb -> pks [label="AND"];
+    ktv -> pks [label="AND"];
+
+    // tbs XOR kvp -> z22
+    tbs -> z22 [label="XOR"];
+    kvp -> z22 [label="XOR"];
+
+    // trd OR jqg -> nrd
+    trd -> nrd [label="OR"];
+    jqg -> nrd [label="OR"];
+
+    // jfn AND fjb -> vpj
+    jfn -> vpj [label="AND"];
+    fjb -> vpj [label="AND"];
+
+    // trw AND pmb -> pvb
+    trw -> pvb [label="AND"];
+    pmb -> pvb [label="AND"];
+
+    // cpv AND wjh -> jtp
+    cpv -> jtp [label="AND"];
+    wjh -> jtp [label="AND"];
+
+    // kbm XOR dgv -> z35
+    kbm -> z35 [label="XOR"];
+    dgv -> z35 [label="XOR"];
+
+    // hhm XOR rmg -> z29
+    hhm -> z29 [label="XOR"];
+    rmg -> z29 [label="XOR"];
+
+    // y07 XOR x07 -> dts
+    y07 -> dts [label="XOR"];
+    x07 -> dts [label="XOR"];
+
+    // whm OR qss -> mtm
+    whm -> mtm [label="OR"];
+    qss -> mtm [label="OR"];
+
+    // nqq AND hgv -> mdk
+    nqq -> mdk [label="AND"];
+    hgv -> mdk [label="AND"];
+
+    // dmn AND rkw -> gwm
+    dmn -> gwm [label="AND"];
+    rkw -> gwm [label="AND"];
+
+    // x43 AND y43 -> tmc
+    x43 -> tmc [label="AND"];
+    y43 -> tmc [label="AND"];
+
+    // rmg AND hhm -> ktc
+    rmg -> ktc [label="AND"];
+    hhm -> ktc [label="AND"];
+
+    // jjc XOR mpf -> z04
+    jjc -> z04 [label="XOR"];
+    mpf -> z04 [label="XOR"];
+
+    // y23 AND x23 -> mks
+    y23 -> mks [label="AND"];
+    x23 -> mks [label="AND"];
+
+    // frt XOR pgs -> z32
+    frt -> z32 [label="XOR"];
+    pgs -> z32 [label="XOR"];
+
+    // x19 XOR y19 -> kbs
+    x19 -> kbs [label="XOR"];
+    y19 -> kbs [label="XOR"];
+
+    // kvh AND fkg -> qns
+    kvh -> qns [label="AND"];
+    fkg -> qns [label="AND"];
+
+    // bnh OR sbg -> jwg
+    bnh -> jwg [label="OR"];
+    sbg -> jwg [label="OR"];
+
+    // qsg AND gtk -> fnq
+    qsg -> fnq [label="AND"];
+    gtk -> fnq [label="AND"];
+
+    // y11 XOR x11 -> fkc
+    y11 -> fkc [label="XOR"];
+    x11 -> fkc [label="XOR"];
+
+    // vfq OR psb -> wrg
+    vfq -> wrg [label="OR"];
+    psb -> wrg [label="OR"];
+
+    // bpg OR jtp -> pft
+    bpg -> pft [label="OR"];
+    jtp -> pft [label="OR"];
+
+    // x29 AND y29 -> rwk
+    x29 -> rwk [label="AND"];
+    y29 -> rwk [label="AND"];
+
+    // qsg XOR gtk -> z42
+    qsg -> z42 [label="XOR"];
+    gtk -> z42 [label="XOR"];
+
+    // x07 AND y07 -> qss
+    x07 -> qss [label="AND"];
+    y07 -> qss [label="AND"];
+
+    // x41 AND y41 -> npg
+    x41 -> npg [label="AND"];
+    y41 -> npg [label="AND"];
+
+    // kvh XOR fkg -> z39
+    kvh -> z39 [label="XOR"];
+    fkg -> z39 [label="XOR"];
+
+    // jrb AND tmk -> wcc
+    jrb -> wcc [label="AND"];
+    tmk -> wcc [label="AND"];
+
+    // y36 XOR x36 -> qmj
+    y36 -> qmj [label="XOR"];
+    x36 -> qmj [label="XOR"];
+
+    // ntm OR mwj -> tnq
+    ntm -> tnq [label="OR"];
+    mwj -> tnq [label="OR"];
+
+    // y11 AND x11 -> wkn
+    y11 -> wkn [label="AND"];
+    x11 -> wkn [label="AND"];
+
+    // fjb XOR jfn -> z44
+    fjb -> z44 [label="XOR"];
+    jfn -> z44 [label="XOR"];
+
+    // rwk OR ktc -> dmn
+    rwk -> dmn [label="OR"];
+    ktc -> dmn [label="OR"];
+
+    // ktt XOR rvb -> z01
+    ktt -> z01 [label="XOR"];
+    rvb -> z01 [label="XOR"];
+
+    // mfp XOR rnc -> z41
+    mfp -> z41 [label="XOR"];
+    rnc -> z41 [label="XOR"];
+
+    // hgv XOR nqq -> z21
+    hgv -> z21 [label="XOR"];
+    nqq -> z21 [label="XOR"];
+
+    // x35 XOR y35 -> kbm
+    x35 -> kbm [label="XOR"];
+    y35 -> kbm [label="XOR"];
+
+    // y35 AND x35 -> mwp
+    y35 -> mwp [label="AND"];
+    x35 -> mwp [label="AND"];
+
+    // x42 AND y42 -> pcv
+    x42 -> pcv [label="AND"];
+    y42 -> pcv [label="AND"];
+
+    // dsd AND spf -> mrf
+    dsd -> mrf [label="AND"];
+    spf -> mrf [label="AND"];
+
+    // y02 XOR x02 -> ssq
+    y02 -> ssq [label="XOR"];
+    x02 -> ssq [label="XOR"];
+
+    // x18 AND y18 -> fsc
+    x18 -> fsc [label="AND"];
+    y18 -> fsc [label="AND"];
+
+    // y04 XOR x04 -> jjc
+    y04 -> jjc [label="XOR"];
+    x04 -> jjc [label="XOR"];
+
+    // rkn XOR ssq -> z02
+    rkn -> z02 [label="XOR"];
+    ssq -> z02 [label="XOR"];
+
+    // x43 XOR y43 -> btd
+    x43 -> btd [label="XOR"];
+    y43 -> btd [label="XOR"];
+
+    // dhb XOR ktv -> z15
+    dhb -> z15 [label="XOR"];
+    ktv -> z15 [label="XOR"];
+
+    // x20 XOR y20 -> ckt
+    x20 -> ckt [label="XOR"];
+    y20 -> ckt [label="XOR"];
+
+    // jqc AND qmj -> vwj
+    jqc -> vwj [label="AND"];
+    qmj -> vwj [label="AND"];
+
+    // y21 AND x21 -> nqk
+    y21 -> nqk [label="AND"];
+    x21 -> nqk [label="AND"];
+
+    // x01 AND y01 -> kgp
+    x01 -> kgp [label="AND"];
+    y01 -> kgp [label="AND"];
+
+    // qjc AND kbs -> bnh
+    qjc -> bnh [label="AND"];
+    kbs -> bnh [label="AND"];
+
+    // fhf OR pvb -> rqp
+    fhf -> rqp [label="OR"];
+    pvb -> rqp [label="OR"];
+
+    // fnc XOR nbf -> z13
+    fnc -> z13 [label="XOR"];
+    nbf -> z13 [label="XOR"];
+
+    // dts AND gpv -> whm
+    dts -> whm [label="AND"];
+    gpv -> whm [label="AND"];
+
+    // smd XOR qvw -> z31
+    smd -> z31 [label="XOR"];
+    qvw -> z31 [label="XOR"];
+
+    // fjd OR sch -> ftg
+    fjd -> ftg [label="OR"];
+    sch -> ftg [label="OR"];
+
+    // y06 XOR x06 -> mhv
+    y06 -> mhv [label="XOR"];
+    x06 -> mhv [label="XOR"];
+
+    // tmk XOR jrb -> z26
+    tmk -> z26 [label="XOR"];
+    jrb -> z26 [label="XOR"];
+
+    // y27 XOR x27 -> qdg
+    y27 -> qdg [label="XOR"];
+    x27 -> qdg [label="XOR"];
+
+    // x44 XOR y44 -> jfn
+    x44 -> jfn [label="XOR"];
+    y44 -> jfn [label="XOR"];
+
+    // qns OR rjk -> dhr
+    qns -> dhr [label="OR"];
+    rjk -> dhr [label="OR"];
+
+    // kdm XOR cgt -> z05
+    kdm -> z05 [label="XOR"];
+    cgt -> z05 [label="XOR"];
+
+    // kwm OR vsc -> ntj
+    kwm -> ntj [label="OR"];
+    vsc -> ntj [label="OR"];
+
+    // x22 AND y22 -> bsr
+    x22 -> bsr [label="AND"];
+    y22 -> bsr [label="AND"];
+
+    // cvb XOR dhr -> z40
+    cvb -> z40 [label="XOR"];
+    dhr -> z40 [label="XOR"];
+
+    // y37 XOR x37 -> tjm
+    y37 -> tjm [label="XOR"];
+    x37 -> tjm [label="XOR"];
+
+    // x16 AND y16 -> mgr
+    x16 -> mgr [label="AND"];
+    y16 -> mgr [label="AND"];
+
+    // rkn AND ssq -> vsc
+    rkn -> vsc [label="AND"];
+    ssq -> vsc [label="AND"];
+
+    // ktt AND rvb -> kmb
+    ktt -> kmb [label="AND"];
+    rvb -> kmb [label="AND"];
+
+    // x10 XOR y10 -> hcd
+    x10 -> hcd [label="XOR"];
+    y10 -> hcd [label="XOR"];
+
+    // pmb XOR trw -> z09
+    pmb -> z09 [label="XOR"];
+    trw -> z09 [label="XOR"];
+
+    // spj OR gqf -> z37
+    spj -> z37 [label="OR"];
+    gqf -> z37 [label="OR"];
+
+    // y30 AND x30 -> bfn
+    y30 -> bfn [label="AND"];
+    x30 -> bfn [label="AND"];
+
+    // x26 AND y26 -> jjp
+    x26 -> jjp [label="AND"];
+    y26 -> jjp [label="AND"];
+
+    // jrr XOR hjm -> z24
+    jrr -> z24 [label="XOR"];
+    hjm -> z24 [label="XOR"];
+
+    // jwg AND ckt -> bgs
+    jwg -> bgs [label="AND"];
+    ckt -> bgs [label="AND"];
+
+    // x29 XOR y29 -> hhm
+    x29 -> hhm [label="XOR"];
+    y29 -> hhm [label="XOR"];
+
+    // x09 AND y09 -> fhf
+    x09 -> fhf [label="AND"];
+    y09 -> fhf [label="AND"];
+
+    // dnd AND nqd -> stm
+    dnd -> stm [label="AND"];
+    nqd -> stm [label="AND"];
+}
